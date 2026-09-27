@@ -1,0 +1,8 @@
+{
+  "model_path": "models/baseline_model.joblib",
+  "dataset_path": "outputs/train_dataset.npz",
+  "threshold": 0.5,
+  "total_pairs": 125000,
+  "predicted_positives": 16570,
+  "predicted_positive_ratio": 0.13256
+}

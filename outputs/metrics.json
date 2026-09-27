@@ -1,0 +1,242 @@
+{
+  "model_path": "models/baseline_model.joblib",
+  "dataset_path": "outputs/train_dataset.npz",
+  "decision_threshold": 0.5,
+  "macro_metrics": {
+    "macro_f05": 0.95739,
+    "macro_precision": 0.95434,
+    "macro_recall": 0.99436,
+    "total_entities": 5000,
+    "singleton_entities": 347,
+    "singleton_accuracy": 0.85303,
+    "non_singleton_entities": 4653,
+    "non_singleton_macro_f05": 0.96517,
+    "total_true_matches": 15888,
+    "total_predicted_matches": 16570,
+    "total_true_positives": 15793,
+    "micro_precision": 0.95311,
+    "micro_recall": 0.99402
+  },
+  "sample_entity_evaluations": [
+    {
+      "s1_id": "S1-100109534",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100166899",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-10028299",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100324612",
+      "true_count": 0,
+      "pred_count": 0,
+      "tp_count": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": true,
+      "is_correct_singleton": true
+    },
+    {
+      "s1_id": "S1-100365400",
+      "true_count": 2,
+      "pred_count": 2,
+      "tp_count": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100435874",
+      "true_count": 4,
+      "pred_count": 4,
+      "tp_count": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100545494",
+      "true_count": 8,
+      "pred_count": 8,
+      "tp_count": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100687016",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100691855",
+      "true_count": 1,
+      "pred_count": 1,
+      "tp_count": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-100873232",
+      "true_count": 1,
+      "pred_count": 1,
+      "tp_count": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-10092319",
+      "true_count": 5,
+      "pred_count": 5,
+      "tp_count": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101190186",
+      "true_count": 4,
+      "pred_count": 4,
+      "tp_count": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101298543",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101352059",
+      "true_count": 5,
+      "pred_count": 5,
+      "tp_count": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101364006",
+      "true_count": 5,
+      "pred_count": 5,
+      "tp_count": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-10153258",
+      "true_count": 0,
+      "pred_count": 0,
+      "tp_count": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": true,
+      "is_correct_singleton": true
+    },
+    {
+      "s1_id": "S1-101541682",
+      "true_count": 4,
+      "pred_count": 5,
+      "tp_count": 4,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f05": 0.83333,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101600459",
+      "true_count": 1,
+      "pred_count": 1,
+      "tp_count": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101629104",
+      "true_count": 3,
+      "pred_count": 3,
+      "tp_count": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    },
+    {
+      "s1_id": "S1-101933359",
+      "true_count": 6,
+      "pred_count": 6,
+      "tp_count": 6,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f05": 1.0,
+      "is_singleton": false,
+      "is_correct_singleton": false
+    }
+  ]
+}

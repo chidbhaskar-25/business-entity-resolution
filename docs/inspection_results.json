@@ -1,0 +1,752 @@
+{
+  "data/train/train_source1.tsv": {
+    "path": "data/train/train_source1.tsv",
+    "size_bytes": 210069713,
+    "total_rows": 2206821,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "sample_names": [
+      [
+        "S1-925783039",
+        "Orelee's Barbershop"
+      ],
+      [
+        "S1-773889195",
+        "Prime Money"
+      ],
+      [
+        "S1-377745466",
+        "B+ Retail Inc"
+      ],
+      [
+        "S1-133037285",
+        "Christ Chapel"
+      ],
+      [
+        "S1-755362802",
+        "Prabhav Business Center"
+      ],
+      [
+        "S1-851869949",
+        "Custom Wealth Services LLC"
+      ],
+      [
+        "S1-785847572",
+        "Consulting Nyasa Nursing Private Limited"
+      ],
+      [
+        "S1-27541239",
+        "Nexus Anchor Rain"
+      ],
+      [
+        "S1-629417405",
+        "Moore Bitwise Inc"
+      ],
+      [
+        "S1-22305073",
+        "Dermatology Green Medicine"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S1-925783039",
+        "1795 Westchester Drive, High Point, NC"
+      ],
+      [
+        "S1-773889195",
+        "17560 Ellis Road, Tahlequah, OK"
+      ],
+      [
+        "S1-377745466",
+        "1712 Montebello Avenue, Phoenix, AZ"
+      ],
+      [
+        "S1-133037285",
+        "2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD"
+      ],
+      [
+        "S1-755362802",
+        "797, Lake Town Block A, Kolkata, Howrah, West Bengal"
+      ],
+      [
+        "S1-851869949",
+        "OH, Columbus, 5559 Orville Avenue"
+      ],
+      [
+        "S1-785847572",
+        "2505, Tower 1, Oakwood, Runwal Greens, Mulund Goreagon Link Road, Near Fortis Hospital, Bhandup West, Mumbai, Maharashtra"
+      ],
+      [
+        "S1-27541239",
+        "1111 Church Street, Unit 2007, Nashville, TN"
+      ],
+      [
+        "S1-629417405",
+        "337 Oakland Avenue, Michigan City, IN"
+      ],
+      [
+        "S1-22305073",
+        "294 Meadowcreek Drive, Unit Unit 2, Village Of Pewaukee, WI"
+      ]
+    ]
+  },
+  "data/train/train_source2.tsv": {
+    "path": "data/train/train_source2.tsv",
+    "size_bytes": 489301488,
+    "total_rows": 5034616,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "business_address": 168967,
+      "entity_id": 0,
+      "business_name": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "India": 2017799,
+      "US": 3016817
+    },
+    "sample_names": [
+      [
+        "S2-166376419",
+        "\u0930\u093e\u092e \u092e\u093e\u0930\u094d\u0915\u0947\u091f\u093f\u0902\u0917 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921"
+      ],
+      [
+        "S2-764573417",
+        "-- Holloway Peak Inc Seafood"
+      ],
+      [
+        "S2-639257739",
+        "\u0906\u0926\u093f\u0924\u094d\u092f \u092a\u094d\u0930\u0949\u092a\u0930\u094d\u091f\u0940\u091c \u090f\u0932\u090f\u0932\u092a\u0940"
+      ],
+      [
+        "S2-163963287",
+        "Summit Inc"
+      ],
+      [
+        "S2-49942811",
+        "Delta Tetlecommunication Inc"
+      ],
+      [
+        "S2-138046867",
+        "Lee and Lawson"
+      ],
+      [
+        "S2-584977605",
+        "SHIVSHAKTI VIDYALAYA VIDYALAYA OVERSEAS CORPORATION | www.shivshakti.com"
+      ],
+      [
+        "S2-277444929",
+        "Shree Infracon Private Ltd"
+      ],
+      [
+        "S2-721031885",
+        "Chavira Platinum Chimera LLC"
+      ],
+      [
+        "S2-508602797",
+        "FOUNDATION EXCEL AGENCY PRIVATE  LIMITED"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S2-166376419",
+        "KH NO. -570/13, NEW DELHI, WEST DELHI, Delhi"
+      ],
+      [
+        "S2-764573417",
+        "105 ELM ST, MORGANTON, NC"
+      ],
+      [
+        "S2-639257739",
+        "G-3/571, GULMOHAR COLONY, BHOPAL, Madhya Pradesh"
+      ],
+      [
+        "S2-163963287",
+        "GREENSBORO, NC, 19 1/2 STARDUST TRAIL"
+      ],
+      [
+        "S2-49942811",
+        "914 PIERPONT AVE, CLEVELAND, OH"
+      ],
+      [
+        "S2-138046867",
+        "1702 Pine Avenue, CITY OF MENOMONIE, WI"
+      ],
+      [
+        "S2-584977605",
+        "H.NO 204 C ROAD HOSHIARPUR, PUNJAB, Punjab"
+      ],
+      [
+        "S2-277444929",
+        "63/2275/7, ALHIND TOWER, FIRST FLOOR, JAFFERKHAN COLONY, KOZHIKODE, Kerala"
+      ],
+      [
+        "S2-721031885",
+        "282 SAXONY DRIVE, FTT MITCHELL, KY"
+      ],
+      [
+        "S2-508602797",
+        "HN 753 E-1, BHARAT NAGAR, 104/1/1 ERANDWANE, Maharashtra"
+      ]
+    ]
+  },
+  "data/train/train_source3.tsv": {
+    "path": "data/train/train_source3.tsv",
+    "size_bytes": 503705637,
+    "total_rows": 5285603,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "business_address": 175916,
+      "entity_id": 0,
+      "business_name": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "US": 3170056,
+      "India": 2115547
+    },
+    "sample_names": [
+      [
+        "S3-202863386",
+        "wilfordhancock.com"
+      ],
+      [
+        "S3-859268022",
+        "International South Consultants Private Ltd"
+      ],
+      [
+        "S3-22467283",
+        "LLC Moncada L\u00e9arning Center"
+      ],
+      [
+        "S3-671162755",
+        "Moyna's Coffee"
+      ],
+      [
+        "S3-960981775",
+        "Pvt. EFS Print Ventures Ltd."
+      ],
+      [
+        "S3-578159284",
+        "LLC Hernandez Colonial Redwood"
+      ],
+      [
+        "S3-121412624",
+        "Classic Equity Partners Group"
+      ],
+      [
+        "S3-249416830",
+        "Ectolumdrex dba X+ Madison Inc"
+      ],
+      [
+        "S3-107644605",
+        "Animal Hanisch Hospirlg"
+      ],
+      [
+        "S3-160217003",
+        "Gomez Optimal"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S3-202863386",
+        "Mack Rd, Haltom City, Texas"
+      ],
+      [
+        "S3-22467283",
+        "5780 Fawn Ct, Fort Worth, Texas"
+      ],
+      [
+        "S3-671162755",
+        "1 Ivanhoe Ave, PO Box 6009, Cincinnati, Ohio"
+      ],
+      [
+        "S3-960981775",
+        "Door No 183, 41St Cross, 22Nd Main 9Th Block Jayanagar, Bengaluru Urban, Bangalore, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95"
+      ],
+      [
+        "S3-578159284",
+        "2260- Housecreek Trail, Unit 407, Raleigh, North Carolina"
+      ],
+      [
+        "S3-121412624",
+        "6885 Catalpa Bluff Ln, PO Box 5799, Dickinson, Texas"
+      ],
+      [
+        "S3-249416830",
+        "S03575 Cty Tk M, Town Of Buffalo, WI"
+      ],
+      [
+        "S3-107644605",
+        "##8 Willow Oak Lane, Fl. 0, Saint Louis, Missouri"
+      ],
+      [
+        "S3-160217003",
+        "343 Hempstead 161, Hope, Arkansas"
+      ],
+      [
+        "S3-504183980",
+        "46 White Rock Dr, Hurricanne, West Virginia"
+      ]
+    ]
+  },
+  "data/test/test_source1.tsv": {
+    "path": "data/test/test_source1.tsv",
+    "size_bytes": 175022086,
+    "total_rows": 1732544,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "US": 663106,
+      "France": 259452,
+      "India": 809986
+    },
+    "sample_names": [
+      [
+        "S1-714132312",
+        "Zephay Labs Inc"
+      ],
+      [
+        "S1-106407869",
+        "Vision Partners Corp"
+      ],
+      [
+        "S1-156285671",
+        "<< Team Ecole"
+      ],
+      [
+        "S1-689823050",
+        "Red Perfect Trading"
+      ],
+      [
+        "S1-921369899",
+        "ZNB Club SARL"
+      ],
+      [
+        "S1-481669221",
+        "Nandlal Kisan LLP"
+      ],
+      [
+        "S1-909865979",
+        "Cure Seafood"
+      ],
+      [
+        "S1-280204013",
+        "Om Constructions Pvt Ltd"
+      ],
+      [
+        "S1-742053041",
+        "Roongta Sangh"
+      ],
+      [
+        "S1-913506265",
+        "Thermal & Fils SASU"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S1-714132312",
+        "2621 Cotten Road, Tyler, TX"
+      ],
+      [
+        "S1-106407869",
+        "IA, Iowa City, 1064 Newton Rd, Unit 11"
+      ],
+      [
+        "S1-156285671",
+        "175 Boulevard du Pr\u00e9sident Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine"
+      ],
+      [
+        "S1-689823050",
+        "Mirzapur, Ews 12, Uttar Pradesh, Mirzapursadar, Awas Vikas Colony"
+      ],
+      [
+        "S1-921369899",
+        "Nouvelle-Aquitaine, La Teste-de-Buch, 5 bis Rue Pierre Dignac"
+      ],
+      [
+        "S1-481669221",
+        "D-61 Ifs Apartmentmayur Vihar I, New Delhi, East Delhi, Delhi"
+      ],
+      [
+        "S1-909865979",
+        "1325 Brooklyn Walk, Issaquah, WA"
+      ],
+      [
+        "S1-280204013",
+        "Karauli, Rajasthan, Karauli, Pani Ki Tanki Ke Pas Choubepada"
+      ],
+      [
+        "S1-742053041",
+        "Bhubaneswar, Sub Plot No.-L6/29, Mahodadhi Bhawan (Next To Iter College) Panchasakha Nagar, Dumuduma, Khordha, Plot No.-780, Orissa"
+      ],
+      [
+        "S1-913506265",
+        "20 Rue Parmentier, Dunkerque, Hauts-de-France"
+      ]
+    ]
+  },
+  "data/test/test_source2.tsv": {
+    "path": "data/test/test_source2.tsv",
+    "size_bytes": 509456422,
+    "total_rows": 4887273,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "business_address": 129408,
+      "entity_id": 0,
+      "business_name": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "India": 2312565,
+      "France": 703378,
+      "US": 1871330
+    },
+    "sample_names": [
+      [
+        "S2-192345572",
+        "Brahma Infosoft"
+      ],
+      [
+        "S2-566025912",
+        "Marina Ecole France Sarl"
+      ],
+      [
+        "S2-158121477",
+        "SCI Ptit \u00c0micale"
+      ],
+      [
+        "S2-89663826",
+        "Apex Summit"
+      ],
+      [
+        "S2-884102769",
+        "Fresh Truist"
+      ],
+      [
+        "S2-910351373",
+        "PVT. INDUSTRIES PMB LEASING LIMITED"
+      ],
+      [
+        "S2-229677112",
+        "Clm Agro [Limited]"
+      ],
+      [
+        "S2-770341988",
+        "sci ligue ici parents"
+      ],
+      [
+        "S2-375151053",
+        "A DIAMOND  SHORT LLC"
+      ],
+      [
+        "S2-701289183",
+        "Fanni's Dmaigesostcis"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S2-192345572",
+        "COIMATORE COLONY, HUNSUR TQMYSORE DIST., Karnataka"
+      ],
+      [
+        "S2-566025912",
+        "63 R. DE DIEPPE, LILLE, Hauts-de-France"
+      ],
+      [
+        "S2-158121477",
+        "18 RUE JEN ZAY, Dunkerque, Nord"
+      ],
+      [
+        "S2-89663826",
+        "67 KENTUCKY ST, SALYERSVILLE, KY"
+      ],
+      [
+        "S2-884102769",
+        "8264 FILLY COURT, ROANOKE COUNTY, VA"
+      ],
+      [
+        "S2-910351373",
+        "SURAT, OFFICE NO. 03038, TRADE HOUSE, NEAR RUSHABH PETROL PUMP, RING ROAD, Gujarat, SURAT"
+      ],
+      [
+        "S2-229677112",
+        "G-B3/5, T V INDUSTRIAL ESTATE 248/A, S K AHIRE MARG, WORLI, Maharashtra"
+      ],
+      [
+        "S2-770341988",
+        "NO. 5 ALL\u00c9E DES H\u00caTRES, Pornic, Loire-Atlantique"
+      ],
+      [
+        "S2-375151053",
+        "126-B New Line Road, MORRISTOWN, TN"
+      ],
+      [
+        "S2-701289183",
+        "1200 HWY 1187, CROWLEY, TX"
+      ]
+    ]
+  },
+  "data/test/test_source3.tsv": {
+    "path": "data/test/test_source3.tsv",
+    "size_bytes": 506002772,
+    "total_rows": 5082316,
+    "cols": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "duplicate_count": 0,
+    "prefix_violations": 0,
+    "missing_counts": {
+      "business_address": 136098,
+      "entity_id": 0,
+      "business_name": 0,
+      "country": 0
+    },
+    "country_counts": {
+      "India": 2405000,
+      "France": 731615,
+      "US": 1945701
+    },
+    "sample_names": [
+      [
+        "S3-462677478",
+        "\u092e\u0949\u0921\u0930\u094d\u0928 \u092b\u093e\u0907\u0928\u0947\u0902\u0938"
+      ],
+      [
+        "S3-374810425",
+        "Shri Sai Infratech Co"
+      ],
+      [
+        "S3-198586129",
+        "Fractales Amis Groupe S.A.S"
+      ],
+      [
+        "S3-10300249",
+        "Shri Supreme Consulting Private  (Limited)"
+      ],
+      [
+        "S3-604980231",
+        "Prime Realty Ventures Public Limited"
+      ],
+      [
+        "S3-577972146",
+        "Perfect Investments Private"
+      ],
+      [
+        "S3-150632472",
+        "Pace Mfa PC"
+      ],
+      [
+        "S3-184785497",
+        "\u0b88\u0bb8\u0bcd\u0b9f\u0bb0\u0bcd\u0ba9\u0bcd \u0b95\u0ba9\u0bcd\u0b9a\u0bb2\u0bcd\u0b9f\u0ba9\u0bcd\u0b9a\u0bbf \u0baa\u0bbf\u0bb0\u0bc8\u0bb5\u0bc7\u0b9f\u0bcd \u0bb2\u0bbf\u0bae\u0bbf\u0b9f\u0bc6\u0b9f\u0bcd"
+      ],
+      [
+        "S3-536202929",
+        "PU Pvt. Ltd. Services"
+      ],
+      [
+        "S3-560657213",
+        "Sun \u092a\u093e\u0935\u0930 Provision"
+      ]
+    ],
+    "sample_addrs": [
+      [
+        "S3-462677478",
+        "No 10 Enkay Square, 448A, Udyog Vihar Phase V, Gurugram, Gurgaon, HR"
+      ],
+      [
+        "S3-374810425",
+        "3/115, East Delhi, DL"
+      ],
+      [
+        "S3-198586129",
+        "23 Rue Icmre, La Teste-de-buch, Gironde"
+      ],
+      [
+        "S3-10300249",
+        "H.no 910 A 3503, Mumbai, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930"
+      ],
+      [
+        "S3-604980231",
+        "G.t. Karnal Road, Industrial Area, New Delhi, null, A-68, \u0926\u093f\u0932\u094d\u0932\u0940"
+      ],
+      [
+        "S3-577972146",
+        "Plot No.99, Flat No.201, Sri Dhama Apts., Road No.4, Shaikpet, Hyderabad, TG"
+      ],
+      [
+        "S3-150632472",
+        "2132 Thomas Run Road, Bel Air, Maryland"
+      ],
+      [
+        "S3-184785497",
+        "1410 Sri Mahalakshmi Mandiar 59, Justice Rathinavel Pandian Road, Chennai, TN"
+      ],
+      [
+        "S3-536202929",
+        "TG, Plot No-25, Hyderabad, Qutubullapur, 26, 27, Mayuri Nagar, Bachupally"
+      ],
+      [
+        "S3-560657213",
+        "143-Alig Flats Rajouri Garden, New Delhi, West Delhi, DL"
+      ]
+    ]
+  },
+  "data/train/train_ground_truth.tsv": {
+    "path": "data/train/train_ground_truth.tsv",
+    "total_rows": 2206821,
+    "cols": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "empty_matches": 123247,
+    "non_empty_matches": 2083574,
+    "match_stats": {
+      "total_links": 7638365,
+      "s2_links": 3693619,
+      "s3_links": 3944746,
+      "s1_self_matches": 0,
+      "min": 1,
+      "max": 11,
+      "mean": 3.66599170463828,
+      "median": 4.0,
+      "p25": 3.0,
+      "p75": 5.0
+    },
+    "sample_pairs": [
+      [
+        "S1-965667",
+        [
+          "S2-681193310",
+          "S2-743505751",
+          "S3-775321672",
+          "S3-11291185"
+        ]
+      ],
+      [
+        "S1-55344266",
+        [
+          "S2-249013014",
+          "S2-197070651",
+          "S3-478195123",
+          "S3-384364074"
+        ]
+      ],
+      [
+        "S1-343815751",
+        [
+          "S2-790675320",
+          "S2-479876582",
+          "S3-878454467"
+        ]
+      ],
+      [
+        "S1-656753428",
+        [
+          "S2-153058913",
+          "S2-24659151",
+          "S3-679606215"
+        ]
+      ],
+      [
+        "S1-102811957",
+        [
+          "S2-478959098",
+          "S2-553508714",
+          "S2-625774905",
+          "S3-728090388"
+        ]
+      ],
+      [
+        "S1-18727616",
+        [
+          "S2-755677256",
+          "S3-187831601",
+          "S3-641489370",
+          "S3-476250621"
+        ]
+      ],
+      [
+        "S1-318373630",
+        [
+          "S2-660036492",
+          "S3-804600254"
+        ]
+      ],
+      [
+        "S1-86989137",
+        [
+          "S3-274817120",
+          "S3-312496301"
+        ]
+      ],
+      [
+        "S1-29845983",
+        [
+          "S2-648035184",
+          "S3-588502663"
+        ]
+      ],
+      [
+        "S1-789009573",
+        [
+          "S2-383871912",
+          "S3-74481402",
+          "S3-576451439"
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+paths:
+  train_dir: data/train
+  test_dir: data/test
+  models_dir: models
+  outputs_dir: outputs
+  matching_results_path: outputs/matching_results.tsv
+  candidate_pairs_path: outputs/candidate_pairs.tsv
+  experiments_log_path: outputs/experiments.json
+dataset:
+  train_source1: train_source1.tsv
+  train_source2: train_source2.tsv
+  train_source3: train_source3.tsv
+  train_ground_truth: train_ground_truth.tsv
+  test_source1: test_source1.tsv
+  test_source2: test_source2.tsv
+  test_source3: test_source3.tsv
+preprocessing:
+  lowercase: true
+  normalize_unicode: true
+  remove_punctuation: true
+  normalize_whitespace: true
+  handle_abbreviations: true
+  handle_legal_suffixes: true
+  preserve_raw: true
+blocking:
+  strategies:
+    exact_normalized_name: true
+    name_token_blocking: true
+    name_prefix_blocking: true
+    address_number_blocking: true
+    address_token_blocking: true
+  min_token_len: 3
+  max_token_frequency: 0.05
+  max_candidates_per_entity: 15
+  prefix_len: 6
+features:
+  name:
+    exact_match: true
+    levenshtein_ratio: true
+    token_sort_ratio: true
+    token_set_ratio: true
+    jaccard: true
+    char_ngram_jaccard: true
+    length_diff: true
+  address:
+    exact_match: true
+    token_sort_ratio: true
+    jaccard: true
+    number_overlap: true
+    length_diff: true
+    is_empty: true
+  country:
+    exact_match: true
+  composite:
+    weighted_score: true
+    source_prefix: true
+model:
+  type: logistic_regression
+  random_seed: 42
+  params:
+    logistic_regression:
+      C: 1.0
+      max_iter: 1000
+      class_weight: balanced
+    random_forest:
+      n_estimators: 100
+      max_depth: 10
+      random_state: 42
+      n_jobs: -1
+    hist_gradient_boosting:
+      max_iter: 100
+      learning_rate: 0.1
+      max_depth: 8
+      random_state: 42
+threshold_optimization:
+  metric: f0.5
+  min_threshold: 0.1
+  max_threshold: 0.95
+  step: 0.01
+  default_threshold: 0.5
+  selected_optimal_threshold: 0.88
+execution:
+  train_sample_size: 25000
+  val_sample_size: 5000
+  test_sample_size: null
+  chunk_size: 10000
+  random_seed: 42
+  verbose: true

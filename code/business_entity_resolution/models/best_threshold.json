@@ -1,0 +1,10 @@
+{
+  "optimal_threshold": 0.88,
+  "best_macro_f05": 0.97819,
+  "best_macro_precision": 0.98435,
+  "best_macro_recall": 0.98034,
+  "default_macro_f05": 0.96931,
+  "f05_improvement": 0.00887,
+  "total_entities_evaluated": 1000,
+  "singleton_entities": 76
+}
